@@ -1,0 +1,17 @@
+
+name: surprise_uploader_app
+description: A simple uploader app that works in the background.
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  path_provider: ^2.0.14
+  permission_handler: ^10.2.0
+  workmanager: ^0.5.1
+
+flutter:
+  uses-material-design: true
